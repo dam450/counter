@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Contador</title>
+  </head>
+  <body>
+    <h1>Contador</h1>
+    <p>Este é um projeto Javascript onde é implementado um contador.</p>
+    <p>
+      Os objetos da DOM são manipulados através do Javascript para que reflitam
+      os cliques dos botões do contador, sendo que os valores estão delimitados
+      entre mínimo 0 e no máximo 50.
+    </p>
+    <div class="counter-wrapper">
+      <div id="counter">
+        <button id="minusbutton" name="subtrair" type="button">-</button>
+        <span id="currentNumber">0</span>
+        <button id="plusbutton" name="adicionar" type="button">+</button>
+      </div>
+      <button id="reset" type="button">Zerar</button>
+    </div>
+    <p>
+      Como desafio do instrutor, foi adicionado o tratamento por eventos
+      (<i>addEventListener</i>) para executar as funções dos botões. <br />
+      Também foi aplicado um <i>listener</i> <i>keydown</i> para capturar teclas
+      pressionadas no teclado.
+    </p>
+    <p>
+      para que o contador seja operado com as teclas (+), (-) e (0) para zerar.
+    </p>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
